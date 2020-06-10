@@ -1,0 +1,15 @@
+/war
+/secrets
+/jenkins
+/secrets
+/nodes
+jenkins
+jenkins.install.UpgradeWizard.state
+jenkins.telemetry.Correlator.xml
+hudson.model.UpdateCenter.xml
+failed-boot-attempts.txt
+copy_reference_file.log
+config.xml
+queue.xml
+nodeMonitors.xml
+copy_reference_file.log
