@@ -72,7 +72,7 @@ Entre em contato e nos questione.
 ## Outras alternativas para execução deste projeto, com um adendo para a elevação de custos *
 
 * Este mesmo projeto poderia ser criado em um ElasticBeanStalk na AWS caso fosse uma aplicação dinâmica e que uma volumetria de
-acessos considerável. Teria recursos como auto-scaling (up e down de máquinas), enviromente para os mais diversos tipos de aplicação
+acessos considerável. Teria recursos como auto-scaling (up e down de máquinas), enviroment para os mais diversos tipos de aplicação
 tais como Java, php, node, e etc . Também poderia ser criado via automação do CloudFormation ou também com módulos do Terraform.
 
 
