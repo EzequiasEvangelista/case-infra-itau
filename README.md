@@ -40,9 +40,11 @@ a secret key e a access key gerada no painel da AWS.
 
 3) Para prosseguir com a criação da infra via Terraform, execute os seguintes comandos : 
 
-> terraform init     vai fazer instalação dos plugins necessários em seu ambiente para execução do Terraform
+Realizar instalação dos plugins do Terraform
 
-> terraform plan    vai exibir todos os componentes que serão gerados na stack e suas possíveis modificações 
+> $ terraform init     
+
+> $ terraform plan    vai exibir todos os componentes que serão gerados na stack e suas possíveis modificações 
 
 > terraform apply   vai aplicar o conteúdo visualizado no terraform plan  e gerar o tsstate que é uma espécie de log da stack.
 
