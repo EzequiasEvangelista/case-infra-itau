@@ -138,7 +138,7 @@ Resource actions are indicated with the following symbols:
 
 Terraform will perform the following actions:
 
-  # aws_cloudfront_distribution.distribution will be created
+  aws_cloudfront_distribution.distribution will be created
   + resource "aws_cloudfront_distribution" "distribution" {
       + active_trusted_signers         = (known after apply)
       + aliases                        = [
@@ -221,7 +221,7 @@ Terraform will perform the following actions:
         }
     }
 
-  # aws_cloudfront_origin_access_identity.access_identity will be created
+  aws_cloudfront_origin_access_identity.access_identity will be created
   + resource "aws_cloudfront_origin_access_identity" "access_identity" {
       + caller_reference                = (known after apply)
       + cloudfront_access_identity_path = (known after apply)
@@ -232,7 +232,7 @@ Terraform will perform the following actions:
       + s3_canonical_user_id            = (known after apply)
     }
 
-  # aws_route53_record.domain will be created
+  aws_route53_record.domain will be created
   + resource "aws_route53_record" "domain" {
       + allow_overwrite = (known after apply)
       + fqdn            = (known after apply)
@@ -248,7 +248,7 @@ Terraform will perform the following actions:
         }
     }
 
-  # aws_route53_record.www-domain will be created
+  aws_route53_record.www-domain will be created
   + resource "aws_route53_record" "www-domain" {
       + allow_overwrite = (known after apply)
       + fqdn            = (known after apply)
@@ -264,7 +264,7 @@ Terraform will perform the following actions:
         }
     }
 
-  # aws_s3_bucket.website will be created
+   aws_s3_bucket.website will be created
   + resource "aws_s3_bucket" "website" {
       + acceleration_status         = (known after apply)
       + acl                         = "public-read"
